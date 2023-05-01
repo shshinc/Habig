@@ -53,3 +53,5 @@ for w in word:
         cnt += 1
         if count > 50:
             break
+
+driver.close()
