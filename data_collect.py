@@ -33,3 +33,7 @@ driver.get(base_url)
 browser = driver.find_element(By.NAME, "q")
 browser.send_keys(word)
 browser.send_keys(Keys.RETURN)
+
+selenium_scroll_option() # 스크롤하여 이미지를 많이 확보
+
+images = driver.find_elements(By.CSS_SELECTOR, ".rg_i.Q4LuWd")
