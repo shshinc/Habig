@@ -37,3 +37,19 @@ browser.send_keys(Keys.RETURN)
 selenium_scroll_option() # 스크롤하여 이미지를 많이 확보
 
 images = driver.find_elements(By.CSS_SELECTOR, ".rg_i.Q4LuWd")
+
+count = 1
+cnt = 1
+for w in word:
+    for i in images:
+        i.click()
+        time.sleep(5)
+        if cnt % 25 == 0:
+            cnt += 1
+        imgurl = driver.find_element(By.XPATH, '//*[@id="islrg"]/div[1]/div[' + str(cnt) + ']/a[1]/div[1]/img').get_attribute("src")
+        path = "C:\\Users\\ksk03\\PycharmProjects\\Habig_data_collect\\data\\" + w + "\\"
+        urllib.request.urlretrieve(imgurl, path + w + str(count) + ".jpg")
+        count += 1
+        cnt += 1
+        if count > 50:
+            break
