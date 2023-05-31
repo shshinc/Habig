@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Kalid",
+      "age": 15,
+      "gender": "Male"
+    },
+    {
+      "name": "Fomagran",
+      "age": 20,
+      "gender": "Male"
+    },
+    {
+      "name": "May",
+      "age": 19,
+      "gender": "Female"
+    },
+    {
+      "name": "Julia",
+      "age": 29,
+      "gender": "Female"
+    },
+    {
+      "name": "Hunter",
+      "age": 18,
+      "gender": "Male"
+    },
+    {
+      "name": "Jane",
+      "age": 28,
+      "gender": "Female"
+    },
+    {
+      "name": "Kendrick",
+      "age": 34,
+      "gender": "Male"
+    },
+    {
+      "name": "Kali",
+      "age": 25,
+      "gender": "Female"
+    },
+    {
+      "name": "Jay",
+      "age": 37,
+      "gender": "Male"
+    },
+    {
+      "name": "Mac",
+      "age": 31,
+      "gender": "Male"
+    }
+  ]
+  
